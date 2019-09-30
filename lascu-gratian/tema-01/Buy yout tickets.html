@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <Title>Buy your tickets now | Gratiano Movies - www.gratianomovies.com</Title>
+    </head>
+
+    <!--This is CSS Rules-->
+    <style>
+
+    .button {
+        text-align: center;
+    }
+
+    .fieldset {
+        text-align:center;
+        width: 1000px;
+        margin:  0px auto;    }
+
+    </style>
+
+    <body>
+        <!--First FieldSet-->
+        <fieldset class="fieldset" class="alocation">
+            <legend>Contact details.</legend>
+                <input id="firstName" name="firstName" type="text" placeholder="First Name">
+
+                <input id="lastName" name="lastName" type="text" placeholder="Last Name">
+
+                <input id="email" name="email" type="email" placeholder="Email">
+
+                <input id="phone" name="phone" type="phone" placeholder="Phone">
+        </fieldset>
+
+        <!--Second FieldSet-->
+        <fieldset class="fieldset">
+            <legend>Choose a movie.</legend>
+                <label><input id="movie" name="movie" type="radio" value="g">Godzila</label>
+                <label><input id="movie" name="movie" type="radio" value="al">Aladin</label>
+                <label><input id="movie" name="movie" type="radio" value="av">Avangers</label>
+                <label><input id="movie" name="movie" type="radio" value="r">Rocketman</label>
+                <label><input id="movie" name="movie" type="radio" value="s">Spider-Man</label>
+
+        </fieldset>
+
+        <!--Third FieldSet-->
+        <fieldset class="fieldset">
+            <legend>Choose location.</legend>
+                <select>
+                    <option>Where do you want to see the movie?</option>
+                    <option id="location" name="location" value="i">Cinema City - Iulius</option>
+                    <option id="location" name="location" value="v">Cinema City - Vivo</option>
+                </select>
+        </fieldset>
+
+        <!--Fourth FieldSet-->
+        <fieldset class="fieldset">
+            <legend>Terms and Conditions.</legend>
+            <label>
+                    <input name="acceptTerms" id="acceptTerms" type="checkbox" /> I agree with Terms and Conditions.</label>
+        </fieldset>
+
+        <!--Button-->
+            <div class="Button">
+            <button type="submit">Buy tickets.</button>
+           </div>
+    </body>
+</html>
