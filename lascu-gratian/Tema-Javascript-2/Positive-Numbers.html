@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Positive numbers</title> 
+    </head>
+    <script>
+      var numbers = [-1, 2, 9, -5, 3];
+
+      var positiveNumbers = numbers.filter(function(number) {
+          return number > 0;
+      });
+
+
+      var sumPositive = 0;
+      for (var i=0; i < positiveNumbers.length; i++) {
+          sumPositive = sumPositive + positiveNumbers[i];
+      }
+
+      console.log(sumPositive);
+
+
+      // Second Variant
+      // var sum = 0;
+      // for (var i=0; i < numbers.lenght; i++) {
+        //    if (numbers[i] > 0) {
+        //      sum = sum + numbers[i];
+        //  }
+       // }
+       // console.log(sum);
+
+    </script>
+</html>
